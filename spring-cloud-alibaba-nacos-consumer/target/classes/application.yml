@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.198.217:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8089
+      eager: true
+      enabled: true
+
+server:
+  port: 9091
+
+management:
+    endpoints:
+    web:
+      exposure:
+        include: "*"
+feign:
+  sentinel:
+    enabled: true
