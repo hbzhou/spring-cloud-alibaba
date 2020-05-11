@@ -36,11 +36,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-      <!--  <dependency>
+      <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>${spring-cloud-sentinel.version}</version>
-        </dependency>-->
+        </dependency>
         <!-- Spring Cloud End -->
     </dependencies>
 
